@@ -8,4 +8,12 @@ function imprArr2($array) {
         echo " }";
     }
 }
+
+function imprArr($array) {
+    echo "<br> { ";
+    foreach ($array as $key => $value) {
+        echo "$value, ";
+    }
+    echo " }";
+}
 ?>
