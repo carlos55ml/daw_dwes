@@ -12,7 +12,7 @@ function imprArr2($array) {
 function imprArr($array) {
     echo "<br> { ";
     foreach ($array as $key => $value) {
-        echo "$value, ";
+        echo "\"$key\" = \"$value\", ";
     }
     echo " }";
 }
