@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicia Sesion</title>
+</head>
+
+<body>
+  <div style="text-align: center;">
+    <h1>Inicia sesion</h1>
+    <form action="login.php?page=true" method="POST">
+      <label for="nombreInput">Nombre: </label>
+      <input autocomplete="off" type="text" name="nameInput" id="nombreInput" placeholder="Tu nombre">
+
+      <br><br>
+
+      <label for="apellidosInput">Apellidos: </label>
+      <input autocomplete="off" type="text" name="surnameInput" id="apellidosInput" placeholder="Tus apellidos" required>
+
+      <br><br>
+
+      <label for="edadInput">Edad: </label>
+      <input type="number" name="ageInput" id="edadInput" value="18" required>
+
+      <br><br>
+
+      <input type="submit" value="Iniciar Sesion">
+      <input type="reset" value="Borrar datos">
+    </form>
+  </div>
+</body>
+
+</html>
