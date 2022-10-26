@@ -21,8 +21,6 @@
 
       echo "id = $pId, nombre = $pNombre, tlfn = $pTlfn <br>";
     }
-
-    
   ?>
 </body>
 

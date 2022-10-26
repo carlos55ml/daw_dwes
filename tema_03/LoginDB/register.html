@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro</title>
+</head>
+
+<body>
+  <div class="centered">
+    <h2>Registro</h2>
+    <form action="./login.php?register=true" method="post">
+      <label for="user">Usuario: </label>
+      <input type="text" name="user" id="userInput">
+      <br>
+      <label for="name">Nombre: </label>
+      <input type="text" name="name" id="nameInput">
+      <br>
+      <label for="pass">Contraseña: </label>
+      <input type="text" name="pass" id="passInput">
+      <br>
+      <input class="btn btn_primary" type="submit" value="Registrate">
+    </form>
+    <a href="./login.html"><button class="btn btn_secondary">Inicia Sesion</button></a>
+  </div>
+</body>
+
+</html>
