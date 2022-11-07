@@ -18,6 +18,11 @@
   echo "<br>Array con nuevo valor: ";
   $arrayNew = genArrayAndNewValue(8, 5);
   imprArr($arrayNew);
+  
+  echo "<br>Array con nuevo valor: ";
+  $arrayNewBeg = genArrayAndNewValueToBegging(8, 5);
+  imprArr($arrayNewBeg);
+  
 
   ?>
 </body>

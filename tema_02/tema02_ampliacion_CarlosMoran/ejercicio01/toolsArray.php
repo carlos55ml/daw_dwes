@@ -45,10 +45,10 @@ function genArrayAndNewValue($cant, $newVal) {
   $arr = fillArray($cant);
   $arrExist = valuesExists($arr, $newVal);
   if ($arrExist) {
-    echo "El valor $newVal ya existe en el array, en las posiciones: ";
-    echo "".implode(", ", $arrExist);
+    echo "<br>El valor $newVal ya existe en el array, en las posiciones: ";
+    echo "".implode(", ", $arrExist);    
   } else {
-    echo "El valor $newVal no existe, añadiendo...<br>";
+    echo "<br>El valor $newVal no existe, añadiendo...";
     array_push($arr, $newVal);
   }
   return $arr;
@@ -58,11 +58,10 @@ function genArrayAndNewValueToBegging($cant, $newVal) {
   $arr = fillArray($cant);
   $arrExist = valuesExists($arr, $newVal);
   if ($arrExist) {
-    echo "El valor $newVal ya existe en el array, en las posiciones: ";
-    print_r($arrExist);
-    imprArr($arrExist);
+    echo "<br>El valor $newVal ya existe en el array, en las posiciones: ";
+    echo "".implode(", ", $arrExist);
   } else {
-    echo "El valor $newVal no existe, añadiendo al principio del array...<br>";
+    echo "<br>El valor $newVal no existe, añadiendo al principio del array...";
     array_unshift($arr, $newVal);
   }
   return $arr;
