@@ -78,7 +78,7 @@ $code = function () {
     /*---------------------------------------------------------------------------------------*/
     function printPerson($list, $index) {
         $trueIndex = $index + 1;
-        echo "Persona $trueIndex: " . printArray($list["Persona" . $trueIndex]);
+        echo "Persona $trueIndex: " . print_r($list["Persona" . $trueIndex]);
     }
 
     printPerson($peopleList, rand(0, count($peopleList) - 1));
